@@ -1,0 +1,6 @@
+from deep_translator.constants import GOOGLE_CODES_TO_LANGUAGES
+
+__all__ = ('SUPPORTED_TRANSLATOR_LANGUAGES', )
+
+
+SUPPORTED_TRANSLATOR_LANGUAGES = list(GOOGLE_CODES_TO_LANGUAGES.keys())
